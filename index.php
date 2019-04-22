@@ -1,5 +1,6 @@
 
-<?php
+<?
+session_start();
   include 'header.php';
 ?>
         <div class="logo-sus col-md-4"><img src="res/imagens/sus2.png" alt=""></div>
@@ -45,4 +46,7 @@
         </form>
 <?php
   include 'footer.php';
+
+  
+session_destroy();
 ?>
