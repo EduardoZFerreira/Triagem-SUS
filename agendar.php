@@ -17,6 +17,7 @@ include 'header.php';
 
     include 'footer.php';
 
+    $headers = 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
     $message = "Olá ". $_SESSION['nome'] ."! Obrigado por participar em nosso exemplo de idéia de inovação! <br>";
     $message .= "<strong> Assinado: Equipe da triagem online do SUS! </strong> <br>";
@@ -28,7 +29,7 @@ include 'header.php';
     $message .= "<strong> Thaysi </strong> <br>";
     
 
-    mail($_SESSION['email'], 'Não responder', $message);
+    mail($_SESSION['email'], 'Não responder', $message, $headers);
 
 session_destroy();
 ?>
