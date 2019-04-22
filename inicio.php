@@ -18,7 +18,7 @@ include 'header.php';
   <div class="form-group">
     <div class="form-group">
         <label for="exampleInputEmail1">Informe sua idade</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Idade">
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Idade">
     </div>
     <label for="exampleFormControlSelect1">Informe sua faixa de peso</label>
     <select class="form-control" id="exampleFormControlSelect1">
