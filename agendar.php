@@ -5,7 +5,7 @@ include 'header.php';
 
 ?>
 <div class="jumbotron">
-  <h1 class="display-4">Recebemos sua solicitaçã!</h1>
+  <h1 class="display-4">Recebemos sua solicitação!</h1>
   <p class="lead">Iremos avaliar e marcar a consulta pra você, fique de olho na plataforma!</p>
   <hr class="my-4">
   <p>Você também vai receber detalhes por e-mail, e podemos ligar pra você pra confirmar!</p>
